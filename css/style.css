@@ -312,10 +312,18 @@ a {
   .trending__image img {
     width: 70%;
     height: 70%;
+    
   }
 
   .trending__content {
     padding: 32px;
   }
+
+}
+@media screen and (max-width: 700px) {
+ 
+.trending-drinks .trending__image {
+  display: none;
+}
 }
 /* END: trending media queries */
